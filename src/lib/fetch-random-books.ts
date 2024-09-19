@@ -1,3 +1,5 @@
+import { BookData } from "@/types";
+
 export default async function fetchRandomBooks(): Promise<BookData[]> {
   const url = `${process.env.NEXT_PUBLIC_API_URL}/book/random`;
 

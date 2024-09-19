@@ -1,3 +1,5 @@
+import { BookData } from "@/types";
+
 export default async function fetchOneBook(
   id: number
 ): Promise<BookData | null> {
